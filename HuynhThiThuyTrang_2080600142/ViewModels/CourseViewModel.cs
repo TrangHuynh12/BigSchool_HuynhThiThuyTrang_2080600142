@@ -9,10 +9,13 @@ namespace HuynhThiThuyTrang_2080600142.ViewModels
 {
     public class CourseViewModel
     {
+        [Required]
         public String Place { get; set; }
         [Required]
+        [FutureDate]
         public String Date { get; set; }
         [Required]
+        [ValidTime]
         public String Time { get; set; }
         [Required]
         public byte Category { get; set; }

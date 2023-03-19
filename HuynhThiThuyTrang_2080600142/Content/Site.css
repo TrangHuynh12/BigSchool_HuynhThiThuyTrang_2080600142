@@ -8,23 +8,20 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+/* */
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.navbar-inverse {
+    background-color: #a4f9ba;
+    border-color: #24e448;
 }
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #777;
-    border-color: #fff
+    .navbar-inverse .navbar-nav > li > a {
+        color: #53abe3;
+    }
+    .navbar-inverse .navbar-brand {
+        color: #53abe3;
+    }
+.btn-primary {
+    color: #53b2d8;
+    background-color: #a4f9ba;
+    border-color: #1eeb89;
 }
