@@ -15,13 +15,33 @@
     border-color: #24e448;
 }
     .navbar-inverse .navbar-nav > li > a {
-        color: #53abe3;
+        color: #a4f9ba;
     }
     .navbar-inverse .navbar-brand {
-        color: #53abe3;
+        color: #a4f9ba;
     }
 .btn-primary {
     color: #53b2d8;
     background-color: #a4f9ba;
     border-color: #1eeb89;
 }
+/*course layout*/
+.course{
+    list-style: none;
+}
+.course > li{
+    position: relative;
+    margin-bottom: 30px;
+}
+    .course > li .date {
+        text-align: center;
+        background-color: #a4f9ba;
+        color: #53b2d8;
+        width: 60px;
+        border-radius: 8px;
+    }
+    .course > li .details{
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }

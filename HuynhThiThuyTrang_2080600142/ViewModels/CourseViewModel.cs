@@ -20,9 +20,9 @@ namespace HuynhThiThuyTrang_2080600142.ViewModels
         [Required]
         public byte Category { get; set; }
         public IEnumerable<Category> Categories { get; set; }
-        public DateTime GetDateTme()
+        public DateTime GetDateTime()
         {
-            return DateTime.Parse(string.Format("{0} {1}", Date, Time));
+            return DateTime.Parse(string.Format("{0:MM/dd/yy}", Date, Time));
         }
     }
 }

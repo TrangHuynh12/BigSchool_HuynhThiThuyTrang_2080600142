@@ -12,13 +12,13 @@ namespace HuynhThiThuyTrang_2080600142.ViewModels
         public override bool IsValid(object value)
         {
             DateTime dateTime;
-            var isValud = DateTime.TryParseExact(Convert.ToString(value),
+            var isValid = DateTime.TryParseExact(Convert.ToString(value),
                 "dd/MM/yyyy",
                 CultureInfo.CurrentCulture,
                 DateTimeStyles.None,
                 out dateTime);
 
-            return (isValud && dateTime > DateTime.Now);
+            return (isValid && dateTime > DateTime.Now);
         }
     }
 }

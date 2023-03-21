@@ -38,7 +38,7 @@ namespace HuynhThiThuyTrang_2080600142.Controllers
             var course = new Course()
             {
                 LecturerId = User.Identity.GetUserId(),
-                DateTime = viewModel.GetDateTme(),
+                DateTime = viewModel.GetDateTime(),
                 CategoryId = viewModel.Category,
                 Place = viewModel.Place
             };
